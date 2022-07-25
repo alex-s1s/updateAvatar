@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+
+html, body,  #root{
+  min-height: 100%;
+}
+
+body{
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body, input, button{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+  cursor: pointer;
+  border: none;
+}
+
+.container{
+  margin: 0 auto;
+  width: 553px;
+  height: 177px;
+  border-radius: 8px;
+  background-color: #eaeaea;
+  margin-top: 102px;
+  border: 2px dashed #C7CDD3;
+}

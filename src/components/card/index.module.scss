@@ -1,0 +1,93 @@
+        .gridContainer {
+            position: relative;
+            display: flex;
+            width: 100%;
+            padding: 10px;
+            height: 100%;
+
+            .gridPhoto{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 40%;
+
+                img{
+                    margin: 0 auto;
+                    width: 193px;
+                    height: 116px;
+                }
+
+                .imageError{
+                    display: flex;
+                    height: 100%;
+                    justify-content: center;
+                    align-items: center;
+                    width: 113px;
+                    height: 113px;
+                    background-color: #C3CBD5;
+                    border-radius: 72.5px;
+
+                    span{
+                        padding: 5px;
+                        border-radius: 50%;
+                        background-color: #fff;
+                        color: #C3CBD5;
+                    }
+                }
+            }
+
+            .body{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+        
+            .bodyEdit{
+                display: flex;
+                width: 50%;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .buttonEdit{
+                background-color: #3D485F;
+                color: #fff;
+                width: 109px !important;
+                border-radius: 16px;
+                padding: 3px 0;
+                align-self: flex-end;
+            }
+
+            .error{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+
+                p{
+                    color: #C64D32;
+                    margin-top: 2px;
+                    font-weight: 400;
+                }
+
+                button{
+                    border: none;
+                    text-decoration: underline;
+                    font-weight: 500;
+                }
+                
+            }
+
+            .icon{
+                position:relative; 
+                margin-left:auto;
+                right:0;
+                cursor: pointer;
+            }
+        }
+
+        
+          
